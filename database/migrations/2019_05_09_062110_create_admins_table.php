@@ -16,11 +16,12 @@ class CreateAdminsTable extends Migration
         Schema::create('admins', function (Blueprint $table) {
             $table->increments('id');
             $table->string('uname',16)->unique();
-            $table->string('password',32);
-            $table->string('roleid',80)->nullable();
-            $table->integer('tel')->nullable();
+            $table->string('password',255);
+            $table->string('skin',45)->default('index');
+            $table->string('password',255);
             $table->tinyInteger('status')->default(0);
-            $table->timestamps();
+            $table->string('remember_token',100)->nullable();
+            $table->timestamps()->nullable();
         });
     }
 

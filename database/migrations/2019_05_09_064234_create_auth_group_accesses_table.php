@@ -17,7 +17,6 @@ class CreateAuthGroupAccessesTable extends Migration
             $table->increments('id');
             $table->mediumInteger('uid')->index();
             $table->mediumInteger('group_id')->index();
-            $table->timestamps();
         });
     }
 
