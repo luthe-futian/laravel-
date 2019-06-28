@@ -18,10 +18,9 @@ class CreateAdminsTable extends Migration
             $table->string('uname',16)->unique();
             $table->string('password',255);
             $table->string('skin',45)->default('index');
-            $table->string('password',255);
             $table->tinyInteger('status')->default(0);
-            $table->string('remember_token',100)->nullable();
-            $table->timestamps()->nullable();
+            $table->rememberToken()->nullable();
+            $table->timestamps();
         });
     }
 

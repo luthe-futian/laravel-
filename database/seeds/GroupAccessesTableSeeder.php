@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class AdminsTableSeeder extends Seeder
+class GroupAccessesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,10 +11,10 @@ class AdminsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('admins')->insert([
+        DB::table('auth_group_accesses')->insert([
             'id' => 1,
-            'uname' => 'admin',
-            'password' => bcrypt('admin'),
+            'uid' => 1,
+            'group_id' => 1,
         ]);
     }
 }

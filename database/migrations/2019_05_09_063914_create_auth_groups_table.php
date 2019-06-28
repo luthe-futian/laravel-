@@ -17,7 +17,6 @@ class CreateAuthGroupsTable extends Migration
             $table->increments('id');
             $table->string('title',100);
             $table->tinyInteger('status')->default(1);
-            $table->text('rules');
             $table->timestamps();
         });
     }

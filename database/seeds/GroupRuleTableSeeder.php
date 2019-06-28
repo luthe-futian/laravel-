@@ -12,72 +12,32 @@ class GroupRuleTableSeeder extends Seeder
     public function run()
     {
         DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 1,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 2,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 3,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 4,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 5,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 6,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 7,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 8,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 11,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 21,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 22,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 23,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 126,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 136,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 138,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 139,
-        ]);
-        DB::table('auth_group_rules')->insert([
-            'group_id' => 1,
-            'rule_id' => 140,
-        ]);
+            ['group_id' => 1, 'rule_id' => 1],
+            ['group_id' => 1, 'rule_id' => 2],
+            ['group_id' => 1, 'rule_id' => 3],
+            ['group_id' => 1, 'rule_id' => 4],
+            ['group_id' => 1, 'rule_id' => 5],
+            ['group_id' => 1, 'rule_id' => 6],
+            ['group_id' => 1, 'rule_id' => 7],
+            ['group_id' => 1, 'rule_id' => 8],
+            ['group_id' => 1, 'rule_id' => 9],
+            ['group_id' => 1, 'rule_id' => 10],
+            ['group_id' => 1, 'rule_id' => 11],
+            ['group_id' => 1, 'rule_id' => 12],
+            ['group_id' => 1, 'rule_id' => 13],
+            ['group_id' => 1, 'rule_id' => 14],
+            ['group_id' => 1, 'rule_id' => 15],
+            ['group_id' => 1, 'rule_id' => 16],
+            ['group_id' => 1, 'rule_id' => 17],
+            ['group_id' => 1, 'rule_id' => 18],
+            ['group_id' => 1, 'rule_id' => 19],
+            ['group_id' => 1, 'rule_id' => 20],
+            ['group_id' => 1, 'rule_id' => 21],
+            ['group_id' => 1, 'rule_id' => 22],
+            ['group_id' => 1, 'rule_id' => 23],
+            ['group_id' => 1, 'rule_id' => 24],
+            ['group_id' => 1, 'rule_id' => 25],
+            ['group_id' => 1, 'rule_id' => 26]
+       ]);
     }
 }

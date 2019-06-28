@@ -22,9 +22,8 @@ class CreateAuthRulesTable extends Migration
             $table->integer('pid');
             $table->string('icon',255)->nullable();
             $table->integer('isMenu')->default(0);
-            $table->integer('display',0);
-            $table->string('stitle',20);
-            $table->timestamps();
+            $table->integer('display')->default(0);
+            $table->string('stitle',20)->nullable();
         });
     }
 
