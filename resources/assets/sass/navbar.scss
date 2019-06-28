@@ -1,0 +1,129 @@
+.hideSidebar {
+  .navbar {
+    .left-menu {
+      display: none;
+    }
+    .right-menu {
+      width: 100%;
+    }
+  }
+}
+
+.hor-navbar {
+  height: 50px;
+  background: #44403f;
+  border-bottom: none;
+  color: rgb(255, 255, 255);
+  line-height: 50px;
+  font-size: 14px;
+  border-radius: 0px !important;
+  .right {
+    float: right;
+  }
+  .errLog-container {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .left-menu {
+    width: 50%;
+    float: left;
+    text-align: left;
+    height: 100%;
+    .hamburger-container {
+      cursor: pointer;
+      margin-left: 8px;
+      background-color: #336c66;
+      border-radius: 3px;
+      padding: 4px 5px;
+      font-size: 18px;
+    }
+    .block-1, .block-2, .block-3 {
+      margin-right: -5px;
+      min-width: 25%;
+      display: inline-block;
+      border-right: 1px solid #3c3634;
+
+    }
+    .block-3 {
+      min-width: 15%;
+    }
+    .block-1 > .top, .block-2 > .top, .block-3 > .top {
+      height: 25px;
+      line-height: 25px;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+    .block-1 .bottom, .block-2 .bottom, .block-3 .bottom {
+      height: 25px;
+      line-height: 25px;
+      border-radius: 4px;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+    .block-1 > .bottom, .block-2 > .bottom {
+      background: #336c66;
+      background: -webkit-linear-gradient(#337266, #336c66, #337266); /* Safari 5.1 - 6.0 */
+      background: -o-linear-gradient(#337266, #336c66, #337266); /* Opera 11.1 - 12.0 */
+      background: -moz-linear-gradient(#337266, #336c66, #337266); /* Firefox 3.6 - 15 */
+      background: linear-gradient(#337266, #336c66, #337266); /* 标准的语法（必须放在最后） */
+    }
+
+  }
+  .right-menu {
+    text-align: right;
+    float: right;
+    width: 50%;
+    height: 100%;
+    &:focus {
+      outline: none;
+    }
+    .right-menu-item {
+      display: inline-block;
+    }
+    .message{
+      .el-badge__content.is-fixed{
+        top:13px;
+      }
+    }
+    .skin{
+      padding-left:13px;
+    }
+    .logout {
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      padding-left: 13px;
+      border-left: 1px solid #3c3634;
+      svg {
+        position: relative;
+        top: 6px;
+      }
+    }
+
+
+  }
+}
+.-left{
+  display: table-cell;vertical-align: top;
+  i{
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    font-size: 30px;
+    background: #ff5b57!important;
+    text-align: center;
+    color:#fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+}
+.-body{
+  display: table-cell;vertical-align: top;
+}
+.-heading{
+  color: #242a30;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 5px;    margin-top: 0;
+}

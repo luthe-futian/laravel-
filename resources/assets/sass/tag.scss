@@ -1,0 +1,75 @@
+$bg-top:#504c4b;
+$bg-center:#484544;
+.tags-view-container {
+  .tags-view-wrapper {
+    background: $bg-center;
+    background: -webkit-linear-gradient($bg-top, $bg-center,$bg-top); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient($bg-top, $bg-center,$bg-top); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient($bg-top, $bg-center,$bg-top); /* Firefox 3.6 - 15 */
+    background: linear-gradient($bg-top, $bg-center,$bg-top); /* 标准的语法（必须放在最后） */
+    height: 46px;
+    border-bottom: 1px solid #44403f;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 3px 0 rgba(0, 0, 0, .04);
+    .tags-view-item {
+      display: inline-block;
+      position: relative;
+      height: 46px;
+      line-height: 46px;
+      color: #c5c6c7;
+      padding: 0 2px;
+      font-size: 14px;
+      &:hover{
+        color:#336c66;
+      }
+      &:first-of-type {
+        margin-left: 15px;
+      }
+      &.active {
+        color: #fff;
+      }
+    }
+  }
+  .contextmenu {
+    margin: 0;
+    background: #fff;
+    z-index: 100;
+    position: absolute;
+    list-style-type: none;
+    padding: 5px 0;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, .3);
+    li {
+      margin: 0;
+      padding: 7px 16px;
+      cursor: pointer;
+      &:hover {
+        background: #eee;
+      }
+    }
+  }
+}
+.tags-view-wrapper {
+  .tags-view-item {
+    .el-icon-close {
+      width: 16px;
+      height: 16px;
+      vertical-align: 2px;
+      border-radius: 50%;
+      text-align: center;
+      transition: all .3s cubic-bezier(.645, .045, .355, 1);
+      transform-origin: 100% 50%;
+      &:before {
+        transform: scale(.6);
+        display: inline-block;
+        vertical-align: -3px;
+      }
+      &:hover {
+        background-color: #b4bccc;
+        color: #fff;
+      }
+    }
+  }
+}
