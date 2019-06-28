@@ -23,6 +23,6 @@
 
 页面截图
 
-
+![image](https://github.com/luthe-futian/laravel-/blob/master/public/15617112171.jpg)
 
 
