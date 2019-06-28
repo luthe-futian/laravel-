@@ -29,4 +29,6 @@
 
 ![image](https://github.com/luthe-futian/laravel-/blob/master/public/1561710776(1).jpg)
 
+![image](https://github.com/luthe-futian/laravel-/blob/master/public/1561710799(1).jpg)
+
 
