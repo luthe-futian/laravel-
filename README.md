@@ -3,10 +3,15 @@
 #最近一直在捣鼓laravel框架，写了一个简单的管理后台，加深下印象。
 
 #安装
+1、composer update
 
-1、php artisan migrate
+2、复制.env.example 到当前目录下.env ,配置好数据库
 
-2、php artisan db:seed
+3、php artisan key:generate
+
+4、php artisan migrate
+
+5、php artisan db:seed
 
 #后台登录地址
 
