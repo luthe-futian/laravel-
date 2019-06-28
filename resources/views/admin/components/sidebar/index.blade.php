@@ -14,7 +14,7 @@
                     <div class="sidebarTop" v-show="!isCollapse">
                         <div class="topLeft">
                             <div class="topLeft-1"><i class="time">08:39:08</i></div>
-                            <div class="topLeft-2">APJFX</div>
+                            <div class="topLeft-2">Hello</div>
                         </div>
                         <div class="topRight">
                             <div class="topRight-1">

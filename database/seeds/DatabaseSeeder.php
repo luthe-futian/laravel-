@@ -13,11 +13,11 @@ class DatabaseSeeder extends Seeder
     {
          $this->call([
 //             UsersTableSeeder::class,
-//             AdminsTableSeeder::class,
-//             GroupRuleTableSeeder::class,
+             AdminsTableSeeder::class,
+             GroupRuleTableSeeder::class,
              GroupAccessesTableSeeder::class,
-//             AuthGroupsTableSeeder::class,
-//             AuthRulesTableSeeder::class
+             AuthGroupsTableSeeder::class,
+             AuthRulesTableSeeder::class
          ]);
     }
 }
